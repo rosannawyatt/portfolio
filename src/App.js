@@ -68,24 +68,28 @@ function App() {
       <div className='main-body'>
         <div className='panel' data-color='white'>
           <div className='top-section'>
-            <div class="row">
-              <div class="col">
-                <div className='description'>
-                  <p>Full Stack Software Engineer</p>
-                  <p>Python | Javascript | SQL</p>
-                  <p>React | Django | CSS | UI Design</p>
-                </div>
-              </div>
-              <div class="col">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-12 text-center">
-                        <div className='name'>
-                          <h3 class="animate-charcter"> ROSANNA WYATT</h3>
-                        </div>
-                      </div>
-                    </div>
+            <div class="container text-center">
+              <div class="row row-cols-2">
+                <div class="col">
+                  <div>
                   </div>
+                </div>
+                <div class="col" style={{width: "50%"}}>
+                  <div className='name'>
+                    <h3 class="animate-charcter"> ROSANNA WYATT</h3>
+                  </div>
+                </div>
+                <div class="col">
+                  <div className='description'>
+                    <p>Full Stack Software Engineer</p>
+                    <p>Python | Javascript | SQL</p>
+                    <p>React | Django | CSS | UI Design</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
