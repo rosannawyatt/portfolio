@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <div className='navbar'>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style={{marginTop: 40, background: "transparent", backdropFilter: "blur"}}>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style={{marginTop: 40, background: "transparent", backdropFilter: "blur", width:"100%"}}>
           <div class="container-fluid">
             <a class="navbar-brand" href="#">RW</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,27 +68,13 @@ function App() {
       <div className='main-body'>
         <div className='panel' data-color='white'>
           <div className='top-section'>
-            <div class="container text-center">
-              <div class="row row-cols-2">
-                <div class="col">
-                  <div>
-                  </div>
-                </div>
-                <div class="col" style={{width: "50%"}}>
-                  <div className='name'>
-                    <h3 class="animate-charcter"> ROSANNA WYATT</h3>
-                  </div>
-                </div>
-                <div class="col">
-                  <div className='description'>
-                    <p>Full Stack Software Engineer</p>
-                    <p>Python | Javascript | SQL</p>
-                    <p>React | Django | CSS | UI Design</p>
-                  </div>
-                </div>
-                <div class="col">
-                  <div>
-                  </div>
+            <div className='top-row'>
+              <h3 class="name"> ROSANNA WYATT</h3>
+              <div>
+                <div className='description'>
+                  <p>Full Stack Software Engineer</p>
+                  <p>Python | Javascript | SQL</p>
+                  <p>React | Django | CSS | UI Design</p>
                 </div>
               </div>
             </div>
@@ -96,28 +82,24 @@ function App() {
         </div>
         <div className='panel' data-color='dark'>
           <a id='bio'>
-            <div>
-              <div class="row">
-                <div class="col">
-                  <div>
-                    <img src={headshot} alt="" className='headshot' />
-                  </div>
+            <div className='bio-row'>
+              <figure className='panel-item'>
+                <img src={headshot} alt="" className='headshot' />
+              </figure>
+              <figure className='panel-item'>
+                <div className='bio'>
+                  <h1 className='bio-header'>ABOUT ME</h1>
+                  <p>
+                    I'm an artist at heart. My journey as a software
+                    engineer began as a way to add some stability to my life as I continue to pursue 
+                    my music career but I quickly found that I truly enjoy the work. I have appreciation
+                    for all aspects of programming but specifically enjoy front end work
+                    and UI design, as it allows me to use my natural creativity in a way
+                    that directly interacts with the user. I am passionate about creating
+                    technology that is beautiful, intuitive, and improves people's lives.
+                  </p>
                 </div>
-                <div class="col">
-                  <div className='bio'>
-                    <h1 className='bio-header'>ABOUT ME</h1>
-                    <p>
-                      I'm an artist at heart. My journey as a software
-                      engineer began as a way to add some stability to my life as I continue to pursue 
-                      her music career but I quickly found that I truly enjoyed the work. I have appreciation
-                      for all aspects of programming but specifically enjoy front end work
-                      and UI design, as it allows me to use my natural creativity in a way
-                      that directly interacts with the user. I am passionate about creating
-                      technology that is beautiful, intuitive, and improves people's lives.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              </figure>
             </div>
           </a>
         </div>
