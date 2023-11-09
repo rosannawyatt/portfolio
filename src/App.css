@@ -142,8 +142,8 @@
 }
 
 .contact-section {
-  margin: auto;
-  padding: 100px;
+  display: flex;
+  align-items: center;
 }
 
 .linkedin {
@@ -177,6 +177,7 @@ body {
   display: flex;
   min-height: 100vh;
   width: 100%;
+  align-items: center;
 }
 
 /* colours */
@@ -216,4 +217,53 @@ body {
   justify-content: space-evenly;
   align-items: space-evenly;
   gap: 10%;
+}
+
+.project-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 3%;
+}
+
+.project-card {
+  margin: 0;
+  padding: 0;
+  flex-basis: 29.33%;
+}
+
+.project-text {
+  background-color: #FFFFFF;
+  padding: 1rem;
+}
+
+.edu-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 3%;
+}
+
+.edu-card {
+  margin: 0;
+  padding: 0;
+  flex-basis: 20%;
+}
+
+.edu-text {
+  padding: 1rem;
+}
+
+.contact-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3%;
+}
+
+.contact-link {
+  margin: 0;
+  padding: 0;
+  flex-basis: 30%;
 }

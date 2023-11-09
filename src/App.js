@@ -107,44 +107,38 @@ function App() {
           <a id='projects'>
             <div className='projects'>
               <h1 className='project-header'>Projects</h1>
-              <div class="container text-center" style={{width: "100%", marginTop: 60, marginLeft: "8%"}}>
-                <div class="row align-items-center">
-                  <div class="col">
-                    <div class="card" style={{width: "18rem", margin: "auto"}}>
-                      <img src={chauffoh} class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title">Chauffoh</h5>
-                        <p class="card-text">A transportation app designed to help users get themselves and their cars where they need to go when they cannot drive.</p>
-                        <a href="https://github.com/rosannawyatt/chauffoh">
-                          <img className='github-logo' src={githubLogo} />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card" style={{width: "18rem", margin: "auto" }}>
-                      <img src={cars} class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title">EZ Car</h5>
-                        <p class="card-text">A car dealership management web application that handles back end operations as well as client facing sales and sevices.</p>
-                        <a href="https://github.com/rosannawyatt/EZ-Car">
-                          <img className='github-logo' src={githubLogo} />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card" style={{width: "18rem", margin: "auto"}}>
-                      <img src={background} class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title">Portfolio</h5>
-                        <p class="card-text">This website was designed by yours truly using Figma, created with Create React App, bootstrap, and custom CSS</p>
-                        <a href="https://github.com/rosannawyatt/portfolio">
-                          <img className='github-logo' src={githubLogo} />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+              <div>
+                <div className='project-row'>
+                  <figure className='project-card'>
+                    <img src={chauffoh} class="card-img-top" alt="..." />
+                    <figcaption className='project-text'>
+                      <h5>Chauffoh</h5>
+                      <p>A transportation app designed to help users get themselves and their cars where they need to go when they cannot drive.</p>
+                      <a href="https://github.com/rosannawyatt/chauffoh">
+                        <img className='github-logo' src={githubLogo} />
+                      </a>
+                    </figcaption>
+                  </figure>
+                  <figure className='project-card'>
+                    <img src={cars} class="card-img-top" alt="..." />
+                    <figcaption className='project-text'>
+                      <h5>EZ Car</h5>
+                      <p>A car dealership management web application that handles back end operations as well as client facing sales and sevices.</p>
+                      <a href="https://github.com/rosannawyatt/EZ-Car">
+                        <img className='github-logo' src={githubLogo} />
+                      </a>
+                    </figcaption>
+                  </figure>
+                  <figure className='project-card'>
+                    <img src={background} class="card-img-top" alt="..." />
+                    <figcaption className='project-text'>
+                      <h5>Portfolio</h5>
+                      <p>This website was designed by yours truly using Figma, created with Create React App, bootstrap, and custom CSS</p>
+                      <a href="https://github.com/rosannawyatt/portfolio">
+                        <img className='github-logo' src={githubLogo} />
+                      </a>
+                    </figcaption>
+                  </figure>
                 </div>
               </div>
             </div>
@@ -155,30 +149,28 @@ function App() {
             <div className='education-section'>
               <h1 className='education-header'>Education</h1>
               <div className='edu-cards'>
-                <div class="row">
-                  <div class="col">
-                    <div class="card" style={{width: "18rem", margin: "auto", backgroundColor: "#f5f3e9", borderColor: "#f5f3e9"}}>
+                <div>
+                  <div className='edu-row'>
+                    <figure className='edu-card'>
                       <img src={tulane} class="card-img-top" alt="..." />
-                      <div class="card-body">
-                        <h5 class="card-title">Tulane University</h5>
+                      <figcaption className='edu-text'>
+                        <h5>Tulane University</h5>
                         <h6>New Orleans, LA</h6>
                         <h7 className='card-subtitle'>2009-2013</h7>
                         <p> </p>
                         <p class="card-text">Bachelor's degree in Latin American Studies, cum laude</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card" style={{width: "18rem", margin: "auto", backgroundColor: "#f5f3e9", borderColor: "#f5f3e9" }}>
+                      </figcaption>
+                    </figure>
+                    <figure className='edu-card'>
                       <img src={hackreactor} class="card-img-top" alt="..." style={{padding:30, width:"80%", marginLeft:30}} />
-                      <div class="card-body">
-                        <h5 class="card-title">Hack Reactor</h5>
+                      <figcaption className='edu-text'>
+                        <h5>Hack Reactor</h5>
                         <h6>Galvanize Inc</h6>
                         <h7 className='card-subtitle'>2023</h7>
                         <p> </p>
                         <p class="card-text">Advanced Software Engineering Certificate, full stack</p>
-                      </div>
-                    </div>
+                      </figcaption>
+                    </figure>
                   </div>
                 </div>
               </div>
@@ -187,26 +179,21 @@ function App() {
         </div>
         <div className='panel' data-color='dark'>
           <a id='contact'>
-            <div className='contact-section'>
-              <div class="container text-center" style={{ marginLeft: "15%", padding: 0}}>
-                <div class="row align-items-center">
-                  <div class="col" style={{ marginTop: "5%", marginBottom: "5%"}}>
-                    <a href='https://www.linkedin.com/in/rosannawyatt/'>
-                      <img src={linkedin} alt='linkedin logo' className='linkedin' />
-                    </a>
-                  </div>
-                  <div class="col" style={{ marginTop: "5%", marginBottom: "5%"}}>
-                    <img src={email} alt='email logo' className='email' />
-                  </div>
-                  <div class="col" style={{ marginTop: "6%", marginBottom: "5%"}}>
-                    <a href='https://github.com/rosannawyatt'>
-                      <img src={github} alt='github logo' className='github' />
-                    </a>
-                  </div>
-                </div>
+            <div className='contact-row'>
+              <div className='contact-link'>
+                <a href='https://www.linkedin.com/in/rosannawyatt/'>
+                  <img src={linkedin} alt='linkedin logo' className='linkedin' />
+                </a>
+              </div>
+              <div className='contact-link'>
+                <img src={email} alt='email logo' className='email' />
+              </div>
+              <div className='contact-link'>
+                <a href='https://github.com/rosannawyatt'>
+                  <img src={github} alt='github logo' className='github' />
+                </a>
               </div>
             </div>
-          <img className='footer' src={footer} alt='...' />
           </a>
         </div>
       </div>
