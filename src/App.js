@@ -114,7 +114,7 @@ function App() {
                       <img src={chauffoh} class="card-img-top" alt="..." />
                       <div class="card-body">
                         <h5 class="card-title">Chauffoh</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">A transportation app designed to help users get themselves and their cars where they need to go when they cannot drive.</p>
                         <a href="https://github.com/rosannawyatt/chauffoh">
                           <img className='github-logo' src={githubLogo} />
                         </a>
@@ -126,7 +126,7 @@ function App() {
                       <img src={cars} class="card-img-top" alt="..." />
                       <div class="card-body">
                         <h5 class="card-title">EZ Car</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">A car dealership management web application that handles back end operations as well as client facing sales and sevices.</p>
                         <a href="https://github.com/rosannawyatt/EZ-Car">
                           <img className='github-logo' src={githubLogo} />
                         </a>
@@ -138,7 +138,7 @@ function App() {
                       <img src={background} class="card-img-top" alt="..." />
                       <div class="card-body">
                         <h5 class="card-title">Portfolio</h5>
-                        <p class="card-text">This website was designed with Figma, created with Create React App, bootstrap, and custom CSS</p>
+                        <p class="card-text">This website was designed by yours truly using Figma, created with Create React App, bootstrap, and custom CSS</p>
                         <a href="https://github.com/rosannawyatt/portfolio">
                           <img className='github-logo' src={githubLogo} />
                         </a>
