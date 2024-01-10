@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f7e5dda5.css",
+    "main.js": "/portfolio/static/js/main.af15750f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/marble-background.webp": "/portfolio/static/media/marble-background.193d216690f67f0bb3d5.webp",
+    "static/media/cars.webp": "/portfolio/static/media/cars.321a68accacdf46c2ed6.webp",
+    "static/media/hand.webp": "/portfolio/static/media/hand.04797d192cbd5d7e6878.webp",
+    "static/media/marble-footer.webp": "/portfolio/static/media/marble-footer.b33d08919cd279407bf6.webp",
+    "static/media/Tulane.webp": "/portfolio/static/media/Tulane.12a063cecc45a99ffccd.webp",
+    "static/media/Migra-Extralight.ttf": "/portfolio/static/media/Migra-Extralight.dbd60d54988bdfdee09f.ttf",
+    "static/media/TuskerGrotesk-5500Medium.ttf": "/portfolio/static/media/TuskerGrotesk-5500Medium.d0d82e53195181d1bc1f.ttf",
+    "static/media/TuskerGrotesk-3500Medium.ttf": "/portfolio/static/media/TuskerGrotesk-3500Medium.b8a1a6db4f05ded5cd51.ttf",
+    "static/media/headshot-beach.webp": "/portfolio/static/media/headshot-beach.5573af92e0d6e8a157ed.webp",
+    "static/media/email.png": "/portfolio/static/media/email.46d25227d52a06e948da.png",
+    "static/media/NeueMontreal-Regular.otf": "/portfolio/static/media/NeueMontreal-Regular.140bfb4a71fe08805d92.otf",
+    "static/media/GitHub_Logo_White.png": "/portfolio/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
+    "static/media/coding.webp": "/portfolio/static/media/coding.ae2a91380f19615d2260.webp",
+    "static/media/LI-Logo copy.png": "/portfolio/static/media/LI-Logo copy.11609926ccb0bad52900.png",
+    "index.html": "/portfolio/index.html",
+    "main.f7e5dda5.css.map": "/portfolio/static/css/main.f7e5dda5.css.map",
+    "main.af15750f.js.map": "/portfolio/static/js/main.af15750f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7e5dda5.css",
+    "static/js/main.af15750f.js"
+  ]
+}
