@@ -1,16 +1,18 @@
 import './App.css';
+import React from 'react';
 import headshot from "./images/headshot-beach.webp";
 import github from "./images/GitHub_Logo_White.png";
 import email from "./images/email.png";
 import linkedin from "./images/LI-Logo copy.png";
-import tulane from "./images/tulane-logo.png";
-import hackreactor from "./images/hack-reactor.png";
+import tulane from "./images/Tulane.webp";
+import hackreactor from "./images/coding.webp";
 import chauffoh from "./images/hand.webp";
 import cars from "./images/cars.webp";
 import background from "./images/marble-background.webp";
 import githubLogo from "./images/github-mark.png";
 import $ from 'jquery';
 import footer from "./images/marble-footer.webp";
+import { EmailForm } from './EmailForm';
 
 
 function App() {
@@ -107,7 +109,6 @@ function App() {
           <a id='projects'>
             <div className='projects'>
               <h1 className='project-header'>Projects</h1>
-              <div>
                 <div className='project-row'>
                   <figure className='project-card'>
                     <img src={chauffoh} class="card-img-top" alt="..." />
@@ -140,7 +141,6 @@ function App() {
                     </figcaption>
                   </figure>
                 </div>
-              </div>
             </div>
           </a>
         </div>
@@ -162,7 +162,7 @@ function App() {
                       </figcaption>
                     </figure>
                     <figure className='edu-card'>
-                      <img src={hackreactor} class="card-img-top" alt="..." style={{padding:30, width:"80%", marginLeft:30}} />
+                      <img src={hackreactor} class="card-img-top" alt="..." />
                       <figcaption className='edu-text'>
                         <h5>Hack Reactor</h5>
                         <h6>Galvanize Inc</h6>
@@ -192,6 +192,11 @@ function App() {
                 <a href='https://github.com/rosannawyatt'>
                   <img src={github} alt='github logo' className='github' />
                 </a>
+              </div>
+            </div>
+            <div className='contact-row'>
+              <div className='email-form'>
+                <EmailForm />
               </div>
             </div>
           </a>
