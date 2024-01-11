@@ -11,7 +11,6 @@ import cars from "./images/cars.webp";
 import background from "./images/marble-background.webp";
 import githubLogo from "./images/github-mark.png";
 import $ from 'jquery';
-import footer from "./images/marble-footer.webp";
 import { EmailForm } from './EmailForm';
 
 
@@ -52,7 +51,7 @@ function App() {
       <div className='navbar'>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style={{marginTop: 40, background: "transparent", backdropFilter: "blur", width:"100%"}}>
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">RW</a>
+            <a class="navbar-brand" href="#home">RW</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -68,7 +67,7 @@ function App() {
         </nav>
       </div>
       <div className='main-body'>
-        <div className='panel' data-color='white'>
+        <div id='home' className='panel' data-color='white'>
           <div className='top-section'>
             <div className='top-row'>
               <h3 class="name"> ROSANNA WYATT</h3>
@@ -83,10 +82,10 @@ function App() {
           </div>
         </div>
         <div className='panel' data-color='dark'>
-          <a id='bio'>
+          <div id='bio'>
             <div className='bio-row'>
               <figure className='panel-item'>
-                <img src={headshot} alt="" className='headshot' />
+                <img src={headshot} alt="..." className='headshot' />
               </figure>
               <figure className='panel-item'>
                 <div className='bio'>
@@ -103,10 +102,10 @@ function App() {
                 </div>
               </figure>
             </div>
-          </a>
+          </div>
         </div>
         <div className='panel' data-color='projects'>
-          <a id='projects'>
+          <div id='projects'>
             <div className='projects'>
               <h1 className='project-header'>Projects</h1>
                 <div className='project-row'>
@@ -116,7 +115,7 @@ function App() {
                       <h5>Chauffoh</h5>
                       <p>A transportation app designed to help users get themselves and their cars where they need to go when they cannot drive.</p>
                       <a href="https://github.com/rosannawyatt/chauffoh">
-                        <img className='github-logo' src={githubLogo} />
+                        <img className='github-logo' alt='github logo' src={githubLogo} />
                       </a>
                     </figcaption>
                   </figure>
@@ -126,7 +125,7 @@ function App() {
                       <h5>EZ Car</h5>
                       <p>A car dealership management web application that handles back end operations as well as client facing sales and sevices.</p>
                       <a href="https://github.com/rosannawyatt/EZ-Car">
-                        <img className='github-logo' src={githubLogo} />
+                        <img className='github-logo' alt='github logo' src={githubLogo} />
                       </a>
                     </figcaption>
                   </figure>
@@ -136,16 +135,16 @@ function App() {
                       <h5>Portfolio</h5>
                       <p>This website was designed by yours truly using Figma, created with Create React App, bootstrap, and custom CSS</p>
                       <a href="https://github.com/rosannawyatt/portfolio">
-                        <img className='github-logo' src={githubLogo} />
+                        <img className='github-logo' alt='github logo' src={githubLogo} />
                       </a>
                     </figcaption>
                   </figure>
                 </div>
             </div>
-          </a>
+          </div>
         </div>
         <div className='panel' data-color='education'>
-          <a id="education">
+          <div id="education">
             <div className='education-section'>
               <h1 className='education-header'>Education</h1>
               <div className='edu-cards'>
@@ -158,7 +157,7 @@ function App() {
                         <h6>New Orleans, LA</h6>
                         <h7 className='card-subtitle'>2009-2013</h7>
                         <p> </p>
-                        <p class="card-text">Bachelor's degree in Latin American Studies, cum laude</p>
+                        <p className="card-text">Bachelor's degree in Latin American Studies, cum laude</p>
                       </figcaption>
                     </figure>
                     <figure className='edu-card'>
@@ -168,17 +167,17 @@ function App() {
                         <h6>Galvanize Inc</h6>
                         <h7 className='card-subtitle'>2023</h7>
                         <p> </p>
-                        <p class="card-text">Advanced Software Engineering Certificate, full stack</p>
+                        <p className="card-text">Advanced Software Engineering Certificate, full stack</p>
                       </figcaption>
                     </figure>
                   </div>
                 </div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
         <div className='panel' data-color='dark'>
-          <a id='contact'>
+          <div id='contact'>
             <div className='contact-row'>
               <div className='contact-link'>
                 <a href='https://www.linkedin.com/in/rosannawyatt/'>
@@ -199,7 +198,7 @@ function App() {
                 <EmailForm />
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>
