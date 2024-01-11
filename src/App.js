@@ -91,7 +91,7 @@ function App() {
                 <div className='bio'>
                   <h1 className='bio-header'>ABOUT ME</h1>
                   <p>
-                    I'm an artist at heart. My journey as a software
+                    I am an artist at heart. My journey as a software
                     engineer began as a way to add some stability to my life as I continue to pursue 
                     my music career but I quickly found that I truly enjoy the work. I have appreciation
                     for all aspects of programming but specifically enjoy front end work
