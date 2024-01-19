@@ -106,6 +106,7 @@
 
 .description {
   align-items: center;
+  justify-content: center;
   background-color: #3734346b;
   font-size: 3vw;
   position: absolute;
@@ -208,7 +209,7 @@ body {
 
 .top-panel {
   background-image: url(images/marble-background.webp) ;
-  background-size: 240%;
+  background-size: 280%;
   background-repeat: no-repeat;
 }
 
@@ -298,13 +299,13 @@ body {
 }
 
 .contact-link {
-  margin-bottom: 12vh;
+  margin-bottom: 5px;
   padding: 0;
   flex-basis: 80%;
 }
 
 .contact-link a {
-  margin: 10px;
+  margin: 0px;
 }
 
 .email-form {
@@ -357,6 +358,7 @@ body {
 @media (max-width: 600px) {
   .email-form {
     margin: 10px;
+    flex-basis: 80%;
   }
 
   .headshot {
@@ -367,5 +369,19 @@ body {
 
   .bio {
     margin-top: 0;
+  }
+
+  .nav li {
+    margin: 5px;
+  }
+
+  .description {
+    bottom: 50%;
+    width: 50%;
+  }
+
+  .edu-card {
+    flex-basis: 100%;
+    font-size: 11px;
   }
 }
