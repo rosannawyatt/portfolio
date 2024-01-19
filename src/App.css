@@ -153,7 +153,6 @@
 }
 
 .education-header {
-  position: relative; left: 35%;
   font-family: tuskerGroteskTall;
   font-size: 12vw;
   color: #494848;
@@ -415,18 +414,18 @@ body {
 
   .project-header {
     margin-bottom: 25px;
-    font-size: 25vw;
+    font-size: 20vw;
   }
 
   .education-header {
-    font-size: 25vw;
+    font-size: 20vw;
   }
 
   .bio-header {
-    font-size: 25vw;
+    font-size: 20vw;
   }
 
   .name {
-    font-size: 18vw;
+    font-size: 17vw;
   }
 }
