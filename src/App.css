@@ -330,6 +330,25 @@ body {
   align-items: left;
 }
 
+.project-carousel {
+  display: flex;
+}
+
+.project-slides {
+  height: 410px;
+  background-color: #494747;
+}
+
+.slide-text {
+  text-align: left;
+  position: relative; 
+  width: 75%;
+}
+
+.slide-image {
+  margin-bottom: 10px;
+}
+
 @media (min-width: 600px) {
   .top-panel {
     background-size: 180%;
@@ -346,6 +365,10 @@ body {
   .contact-link {
     flex-basis: 30%;
     margin: 0;
+  }
+  .project-carousel {
+    visibility: hidden;
+    display: none;
   }
 }
 
@@ -383,5 +406,14 @@ body {
   .edu-card {
     flex-basis: 100%;
     font-size: 11px;
+  }
+
+  .project-row {
+    visibility: hidden;
+    display: none;
+  }
+
+  .project-header {
+    margin-bottom: 25px;
   }
 }
