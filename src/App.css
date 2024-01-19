@@ -415,5 +415,18 @@ body {
 
   .project-header {
     margin-bottom: 25px;
+    font-size: 25vw;
+  }
+
+  .education-header {
+    font-size: 25vw;
+  }
+
+  .bio-header {
+    font-size: 25vw;
+  }
+
+  .name {
+    font-size: 18vw;
   }
 }
