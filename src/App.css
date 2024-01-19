@@ -29,6 +29,40 @@
   src: url(Migra-Extralight.ttf);
 }
 
+.navbar {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  font-family: migra;
+  font-weight: bold;
+  font-size: 19px;
+  background-color: rgba(255, 255, 255, 0.46);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.nav * {
+  display: inline;
+}
+
+.nav li {
+  margin: 20px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 1000;
+  font-family: tuskerGrotesk;
+}
+
 .App-header {
   background-color: #c0a742;
   min-height: 100vh;
@@ -44,6 +78,7 @@
 .headshot {
   max-width: 40vw;
   max-height: 80vh;
+  margin-top: 80px;
 }
 
 .top-section {
@@ -85,6 +120,7 @@
   font-family: montreal;
   color: #FFFFFF;
   margin-top: 25%;
+  text-align: right;
 }
 
 .bio-header {
@@ -126,20 +162,9 @@
   padding-top: 5vw;
 }
 
-.navbar {
-  display: flex;
-  width: 100%;
-  position: fixed;
-  z-index: 10;
-  background: transparent;
-  backdrop-filter: blur(10px);
-  font-family: migra;
-  font-weight: bold;
-  font-size: 18px;
-}
 
 .main-body {
-  position: absolute; top: 7%;
+  position: absolute; top: 60px;
 }
 
 .contact-section {
@@ -179,6 +204,12 @@ body {
   min-height: 100vh;
   width: 100%;
   align-items: center;
+}
+
+.top-panel {
+  background-image: url(images/marble-background.webp) ;
+  background-size: 240%;
+  background-repeat: no-repeat;
 }
 
 
@@ -272,11 +303,16 @@ body {
   flex-basis: 80%;
 }
 
+.contact-link a {
+  margin: 10px;
+}
+
 .email-form {
   flex-basis: 30%;
   background-color: #FFFFFF;
   padding: 10px;
   border-radius: 10px;
+  margin: 70px;
 }
 
 .form-contents {
@@ -288,8 +324,13 @@ body {
   padding: 10px;
 }
 
+.headshot-section {
+  display: flex;
+  align-items: left;
+}
+
 @media (min-width: 600px) {
-  .color-white {
+  .top-panel {
     background-size: 180%;
   }
   .description {
@@ -308,7 +349,23 @@ body {
 }
 
 @media (min-width: 1200px) {
-  .color-white {
+  .top-panel {
     background-size: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .email-form {
+    margin: 10px;
+  }
+
+  .headshot {
+    max-width: 80vw;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .bio {
+    margin-top: 0;
   }
 }

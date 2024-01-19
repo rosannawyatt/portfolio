@@ -15,6 +15,7 @@ import { EmailForm } from './EmailForm';
 
 
 function App() {
+  console.log('hellloooooooo')
 
   $(window).scroll(function() {
   
@@ -48,26 +49,23 @@ function App() {
 
   return (
     <div className="App">
-      <div className='navbar'>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style={{marginTop: 40, background: "transparent", backdropFilter: "blur", width:"100%"}}>
+      <div>
+        <nav className='nav navbar'>
           <div class="container-fluid">
-            <a class="navbar-brand" href="#home">RW</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div>
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#bio">Bio</a>
-                <a class="nav-link" href="#projects">Projects</a>
-                <a class="nav-link" href="#education">Education</a>
-                <a class="nav-link" href="#contact">Contact</a>
+                <li><a className='nav-link logo' href="#home">RW</a></li>
+                <li><a class="nav-link" aria-current="page" href="#bio">Bio</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#education">Education</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
               </div>
             </div>
           </div>
         </nav>
       </div>
       <div className='main-body'>
-        <div id='home' className='panel' data-color='white'>
+        <div id='home' className='top-panel'>
           <div className='top-section'>
             <div className='top-row'>
               <h3 class="name"> ROSANNA WYATT</h3>
@@ -85,7 +83,9 @@ function App() {
           <div id='bio'>
             <div className='bio-row'>
               <figure className='panel-item'>
-                <img src={headshot} alt="..." className='headshot' />
+                <div className='headshot-section'>
+                  <img src={headshot} alt="..." className='headshot' />
+                </div>
               </figure>
               <figure className='panel-item'>
                 <div className='bio'>
@@ -180,17 +180,12 @@ function App() {
           <div id='contact'>
             <div className='contact-row'>
               <div className='contact-link'>
-                <a href='https://www.linkedin.com/in/rosannawyatt/'>
-                  <img src={linkedin} alt='linkedin logo' className='linkedin' />
-                </a>
-              </div>
-              <div className='contact-link'>
-                <img src={email} alt='email logo' className='email' />
-              </div>
-              <div className='contact-link'>
-                <a href='https://github.com/rosannawyatt'>
-                  <img src={github} alt='github logo' className='github' />
-                </a>
+                  <a href='https://www.linkedin.com/in/rosannawyatt/'>
+                    <img src={linkedin} alt='linkedin logo' className='linkedin' />
+                  </a>
+                  <a href='https://github.com/rosannawyatt'>
+                    <img src={github} alt='github logo' className='github' />
+                  </a>
               </div>
             </div>
             <div className='contact-row'>
