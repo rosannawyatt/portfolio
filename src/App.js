@@ -153,6 +153,9 @@ function App() {
                       <div class="carousel-caption slide-text">
                         <h5>Chauffoh</h5>
                         <p>A transportation app designed to help users get themselves and their cars where they need to go when they cannot drive.</p>
+                        <a href="https://github.com/rosannawyatt/chauffoh">
+                          <img className='github-logo' alt='github logo' src={githubLogo} />
+                        </a>
                       </div>
                     </div>
                     <div class="carousel-item">
@@ -160,6 +163,9 @@ function App() {
                       <div class="carousel-caption slide-text">
                         <h5>EZ Car</h5>
                         <p>A car dealership management web application that handles back end operations as well as client facing sales and sevices.</p>
+                        <a href="https://github.com/rosannawyatt/EZ-Car">
+                          <img className='github-logo' alt='github logo' src={githubLogo} />
+                        </a>
                       </div>
                     </div>
                     <div class="carousel-item">
@@ -167,6 +173,9 @@ function App() {
                       <div class="carousel-caption slide-text">
                         <h5>Portfolio</h5>
                         <p>This website was designed by yours truly using Figma, created with Create React App, bootstrap, and custom CSS.</p>
+                        <a href="https://github.com/rosannawyatt/portfolio">
+                          <img className='github-logo' alt='github logo' src={githubLogo} />
+                        </a>
                       </div>
                     </div>
                   </div>
