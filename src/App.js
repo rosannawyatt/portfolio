@@ -91,12 +91,12 @@ function App() {
                 <div className='bio'>
                   <h1 className='bio-header'>ABOUT ME</h1>
                   <p>
-                    I am an artist at heart. My journey as a software
-                    engineer began as a way to add some stability to my life as I continue to pursue 
-                    my music career but I quickly found that I truly enjoy the work. I have appreciation
+                    I am an artist at heart. Trained in full-stack development, I have appreciation
                     for all aspects of programming but specifically enjoy front end work
                     and UI design, as it allows me to use my natural creativity in a way
-                    that directly interacts with the user. I am passionate about creating
+                    that directly interacts with the user. My journey as a software
+                    engineer began as a way to add some stability to my life as I continue to pursue 
+                    my music career but I quickly found that I truly enjoy the work.  I am passionate about creating
                     technology that is beautiful, intuitive, and improves people's lives.
                   </p>
                 </div>
